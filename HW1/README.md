@@ -51,7 +51,9 @@ train_data=pd.concat([train_data,valid_data], axis=0,ignore_index=True) # 把ind
 2.
 對PRICE做LOG1P，把右斜曲線變回到正規畫曲線，如下圖
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/675f0975-a492-4123-b2b3-d04e8b8ad169)
+
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/be1b302d-8ce0-487a-90c2-2333b8adb720)
+
 3. 找出Price與其他Feature的Corrrlation，但是最後沒用....(發現全部帶進去會比較好)
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/e6f849c3-7b38-45fb-91fb-78e9403e6798)
 
