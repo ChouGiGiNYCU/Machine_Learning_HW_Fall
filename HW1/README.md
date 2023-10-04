@@ -95,8 +95,7 @@ for feature in data.columns:
 * CatBoostRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/06e2ecef-123f-43dc-b07f-eef0a883c8f3)
 
-* LGBMRegressor
-![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/a80641a9-3927-4524-aa00-240c96e401f4)
+
 
 
 ## 改善部分
