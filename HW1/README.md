@@ -83,6 +83,9 @@ for feature in data.columns:
 * 訓練集與驗證集完整被充分利用與學習。
 ## Model Loss Decay
 由於 colab跑每個模型，所以跑很久，所以跑不到500就放沒繼續跑了，Best performance 是跑1000次。
+* LGBMRegressor
+![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/a80641a9-3927-4524-aa00-240c96e401f4)
+
 * AdaBoostRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/f807ec21-ea0e-4431-a3f1-360cc96d810a)
 
