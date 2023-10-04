@@ -50,8 +50,7 @@ train_data=pd.concat([train_data,valid_data], axis=0,ignore_index=True) # 把ind
 ```
 2.
 對PRICE做LOG1P，把右斜曲線變回到正規畫曲線，如下圖
-![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/675f0975-a492-4123-b2b3-d04e8b8ad169)
-
+![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/bbc7df5a-92bb-4c00-8306-c2c61e69d8e9)
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/be1b302d-8ce0-487a-90c2-2333b8adb720)
 
 3. 找出Price與其他Feature的Corrrlation，但是最後沒用....(發現全部帶進去會比較好)
@@ -94,7 +93,8 @@ for feature in data.columns:
 * CatBoostRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/06e2ecef-123f-43dc-b07f-eef0a883c8f3)
 * LGBMRegressor
-![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/75696318-7bae-4bf4-b4cf-075991309668)
+![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/a80641a9-3927-4524-aa00-240c96e401f4)
+
 
 ## 改善部分
 * 可以使用更多model去做，由於每個model學習到的feature都不一樣，所以綜合所有的model能力會遠大於一個，可以增加許多model(SVM、Linear、NN)，也有一句俗諺：「三個臭皮匠，勝過一個諸葛亮。」
