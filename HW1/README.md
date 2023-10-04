@@ -48,14 +48,14 @@ sqft_lot15  | 	lotSize area  | 	Numeric
 ```
 train_data=pd.concat([train_data,valid_data], axis=0,ignore_index=True) # 把index標籤弄掉
 ```
-2.對PRICE做LOG1P，把右斜曲線變回到正規畫曲線，如下圖
+2. 對PRICE做LOG1P，把右斜曲線變回到正規畫曲線，如下圖
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/bbc7df5a-92bb-4c00-8306-c2c61e69d8e9)
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/be1b302d-8ce0-487a-90c2-2333b8adb720)
 
 3. 找出Price與其他Feature的Corrrlation，但是最後沒用....(發現全部帶進去會比較好)
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/e6f849c3-7b38-45fb-91fb-78e9403e6798)
 
-4.把每個feature紀錄出來，看是否正規畫，如果沒有正規劃，就一樣對feature做log1p
+4. 把每個feature紀錄出來，看是否正規畫，如果沒有正規劃，就一樣對feature做log1p
 
 ``` python=
 for feature in data.columns:
@@ -85,12 +85,16 @@ for feature in data.columns:
 由於 colab跑每個模型，所以跑很久，所以跑不到500就放沒繼續跑了，Best performance 是跑1000次。
 * AdaBoostRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/f807ec21-ea0e-4431-a3f1-360cc96d810a)
+
 * RandomForestRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/24861496-cf43-44cd-b52c-fb17d5fbd758)
+
 * GradientBoostingRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/84df608d-b1e4-44ed-9c04-972fa92ec9b9)
+
 * CatBoostRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/06e2ecef-123f-43dc-b07f-eef0a883c8f3)
+
 * LGBMRegressor
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/a80641a9-3927-4524-aa00-240c96e401f4)
 
