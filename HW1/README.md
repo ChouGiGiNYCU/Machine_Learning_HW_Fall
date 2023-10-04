@@ -71,7 +71,7 @@ for feature in data.columns:
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/28ecc0f0-4558-473a-a47e-d0e2852ceeb1)
 
 ### Method1
-利用每個模型跑出的結果，根據每個模型的MSE，給予一定的權重(weight)，得到最終的結果
+利用每個模型跑出的結果，根據每個模型的MSE，給予一定的權重(weight)，得到最終的結果 
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/8094849e-3135-48af-bc24-664079c60602)
 ### Method2
 使用XGBboost，使用第一層的模型的預測結果當作訓練資料，再去做一次訓練。不一定要用XGBboost，可以用其他的模型也沒關係，可以用LinearRegression或訓練自己的神經網路即可。
