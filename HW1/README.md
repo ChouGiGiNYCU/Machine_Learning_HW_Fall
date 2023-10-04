@@ -48,8 +48,7 @@ sqft_lot15  | 	lotSize area  | 	Numeric
 ```
 train_data=pd.concat([train_data,valid_data], axis=0,ignore_index=True) # 把index標籤弄掉
 ```
-2.
-對PRICE做LOG1P，把右斜曲線變回到正規畫曲線，如下圖
+2.對PRICE做LOG1P，把右斜曲線變回到正規畫曲線，如下圖
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/bbc7df5a-92bb-4c00-8306-c2c61e69d8e9)
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/be1b302d-8ce0-487a-90c2-2333b8adb720)
 
