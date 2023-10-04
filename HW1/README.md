@@ -86,20 +86,21 @@ for feature in data.columns:
 
 
 
-* AdaBoostRegressor
-![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/f807ec21-ea0e-4431-a3f1-360cc96d810a)
+|* AdaBoostRegressor|
+| ------------- |
+|![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/f807ec21-ea0e-4431-a3f1-360cc96d810a)|
 
-* RandomForestRegressor
-![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/24861496-cf43-44cd-b52c-fb17d5fbd758)
+|* RandomForestRegressor|
+|![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/24861496-cf43-44cd-b52c-fb17d5fbd758)|
 
-* GradientBoostingRegressor
-![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/84df608d-b1e4-44ed-9c04-972fa92ec9b9)
+|* GradientBoostingRegressor|
+|![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/84df608d-b1e4-44ed-9c04-972fa92ec9b9)|
 
-* CatBoostRegressor
-![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/06e2ecef-123f-43dc-b07f-eef0a883c8f3)
+|* CatBoostRegressor|
+|![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/06e2ecef-123f-43dc-b07f-eef0a883c8f3)|
 
-* LGBMRegressor:
-  ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/1b0163ec-32a6-415e-944d-dae56c1fee5e)
+* LGBMRegressor|
+| ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/1b0163ec-32a6-415e-944d-dae56c1fee5e)|
 
 
 ## 改善部分
