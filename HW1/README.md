@@ -99,7 +99,7 @@ for feature in data.columns:
 ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/06e2ecef-123f-43dc-b07f-eef0a883c8f3)
 
 * LGBMRegressor:
-*  ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/1b0163ec-32a6-415e-944d-dae56c1fee5e)
+| ![image](https://github.com/ChouGiGiNYCU/Machine_Learning_HW_Spring/assets/144834549/1b0163ec-32a6-415e-944d-dae56c1fee5e)|
 
 
 ## 改善部分
