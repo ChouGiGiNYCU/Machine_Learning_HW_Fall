@@ -5,8 +5,6 @@
 
 > Colab : https://colab.research.google.com/?authuser=0#create=true
 
-> Drive : https://drive.google.com/drive/folders/1Ug8YAAPknDUBSL8ZY9wjc3nmzK7cBdNF?usp=sharing
-
 ## Target
 給予中文和對應的台羅拼音，利用以上資料去訓練出中文轉台羅拼音的translation model !!!
 
